@@ -70,6 +70,8 @@ public class ItemSelect extends javax.swing.JFrame {
         jPanel2.setPreferredSize(new java.awt.Dimension(200, 300));
 
         jButton3.setText("jButton3");
+        jButton3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jButton3.setIconTextGap(5);
         jButton3.setMaximumSize(new java.awt.Dimension(180, 30));
         jButton3.setMinimumSize(new java.awt.Dimension(180, 30));
         jButton3.setPreferredSize(new java.awt.Dimension(180, 30));
@@ -80,16 +82,19 @@ public class ItemSelect extends javax.swing.JFrame {
         });
 
         jButton4.setText("jButton4");
+        jButton4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jButton5.setText("jButton5");
+        jButton5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         jButton6.setText("jButton6");
+        jButton6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, 249, Short.MAX_VALUE)
+            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 249, javax.swing.GroupLayout.PREFERRED_SIZE)
             .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addComponent(jButton6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
